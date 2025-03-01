@@ -1,29 +1,29 @@
-# Sahyogi - Volunteer Management System
+# Sahyogi - Together We Serve
 
-A web-based platform that connects volunteers with organizations, streamlining the process of finding and managing volunteer opportunities.
+A platform that brings hearts together for social good. Sahyogi connects passionate volunteers with meaningful causes, creating a community of change-makers.
 
 ## 🌟 Features
 
-### For Volunteers
-- Browse available volunteer opportunities
-- Easy application process for events
-- Track application status
-- Personalized dashboard
-- Profile management
+### For Change-Makers (Volunteers)
+- Discover meaningful opportunities to make a difference
+- Simple and intuitive application process
+- Track your volunteering journey
+- Personalized impact dashboard
+- Build your volunteering portfolio
 
-### For Recruiters
-- Create and post volunteer events
-- Manage volunteer applications
-- Track event participation
-- View volunteer profiles
-- Event management dashboard
+### For Impact Leaders (Recruiters)
+- Create and manage social impact initiatives
+- Connect with dedicated volunteers
+- Track community engagement
+- Measure social impact
+- Streamlined event management
 
-### For Administrators
-- Comprehensive user management
-- System-wide analytics
-- Monitor all activities
-- User activation/deactivation
-- Platform oversight
+### For Community Guardians (Administrators)
+- Comprehensive community oversight
+- Impact analytics and insights
+- Platform governance
+- Quality assurance
+- Community safety management
 
 ## 🛠️ Tech Stack
 
@@ -85,60 +85,60 @@ A web-based platform that connects volunteers with organizations, streamlining t
 
 ```
 Sahyogi/
-├── accounts/                # User management app
-│   ├── models.py           # User and event models
-│   ├── views.py            # View logic
+├── accounts/                # Core application logic
+│   ├── models.py           # Data models
+│   ├── views.py            # View controllers
 │   └── forms.py            # Form definitions
-├── volunteer_system/       # Main project settings
+├── sahyogi/               # Main project settings
 ├── templates/             # HTML templates
-│   ├── admin/            # Admin templates
-│   ├── volunteer/        # Volunteer templates
-│   └── recruiter/        # Recruiter templates
-└── static/               # Static files (CSS, JS)
+│   ├── admin/            # Administrator interface
+│   ├── volunteer/        # Volunteer dashboard
+│   └── recruiter/        # Recruiter workspace
+└── static/               # Static assets
 ```
 
 ## 💡 Key Features Implementation
 
-- **Custom User Model**: Extended Django's base user model to include user types
-- **Role-Based Access**: Different views and permissions for volunteers, recruiters, and admins
-- **Event Management**: Complete CRUD operations for volunteer events
-- **Application System**: Streamlined process for volunteer applications
-- **Dashboard Analytics**: User-specific statistics and activity tracking
-- **Responsive Design**: Mobile-friendly interface using Bootstrap 5
+- **Smart User System**: Tailored experiences for different user roles
+- **Intuitive Access Control**: Role-specific permissions and views
+- **Impact Tracking**: Complete management of social initiatives
+- **Engagement System**: Streamlined volunteer-organization matching
+- **Impact Analytics**: Measure and visualize social impact
+- **Modern Interface**: Responsive design for all devices
 
 ## 🔐 Security Features
 
-- CSRF Protection
-- Secure Authentication
+- Advanced CSRF Protection
+- Secure Authentication System
 - Role-based Authorization
-- Form Validation
-- Secure Password Handling
+- Data Validation
+- Encrypted Password Management
 
 ## 🎨 UI Features
 
-- Responsive Design
+- Modern, Clean Design
 - Intuitive Navigation
-- Clean and Modern Interface
-- Consistent Color Scheme
-- User-friendly Forms
+- Consistent Visual Language
+- Accessibility-First Approach
 - Interactive Elements
+- Mobile-Optimized Interface
 
-## 👥 User Types
+## 👥 Community Roles
 
-1. **Volunteers**
-   - Browse Events
-   - Apply for Opportunities
-   - Track Applications
+1. **Change-Makers (Volunteers)**
+   - Discover Opportunities
+   - Contribute to Causes
+   - Track Impact
 
-2. **Recruiters**
-   - Create Events
-   - Manage Applications
-   - Track Participation
+2. **Impact Leaders (Recruiters)**
+   - Create Initiatives
+   - Manage Volunteers
+   - Measure Success
 
-3. **Administrators**
-   - User Management
-   - System Monitoring
-   - Platform Administration
+3. **Community Guardians (Administrators)**
+   - Oversee Platform
+   - Ensure Quality
+   - Support Users
 
 ## 🤝 Contributing
 
@@ -153,16 +153,12 @@ Sahyogi/
 **Shalvi Rajpura**
 - GitHub: [@shalvirajpura2](https://github.com/shalvirajpura2)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
-- Django Documentation
+- Django Community
 - Bootstrap Team
 - Font Awesome
 - Open Source Community
 
 ---
-© 2025 Sahyogi. Created with ❤️ by Shalvi Rajpura
+© 2025 Sahyogi - Connecting Hearts, Creating Impact ❤️ by Shalvi Rajpura
